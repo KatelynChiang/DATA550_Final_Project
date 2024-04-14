@@ -11,12 +11,12 @@ The final report can be generated using the contents of this directory:
   - The `Output` folder contains various results from different analyses that will be included when building the final report. 
   - The `Data` folder contains the raw data that will be used in the analysis. 
   
-Instructions for creating the Final Report:
+**Instructions for creating the Final Report:**
 
   1. Ensure you are in the correct working directory.
   2. Ensure you have the renv package installed on your computer. 
   3. In the terminal, run `make install` to install necessary packages. 
-  4. In the terminal, run `make report.html`
+  4. In the terminal, run `make report.html` to create the final report. 
 
 ## Code Description 
 
