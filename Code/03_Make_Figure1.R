@@ -1,4 +1,15 @@
-pacman::p_load(tidyverse, dplyr, gtsummary, ggplot2, gt, readxl, data.table, ggrepel, knitr, yaml, rmarkdown, here)
+library(tidyverse)
+library(dplyr)
+library(gtsummary)
+library(ggplot2)
+library(gt)
+library(readxl)
+library(data.table)
+library(ggrepel)
+library(knitr)
+library(yaml)
+library(rmarkdown)
+library(here)
 
 here::i_am("Code/03_Make_Figure1.R")
 

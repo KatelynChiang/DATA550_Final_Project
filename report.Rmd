@@ -28,12 +28,22 @@ For the final project, I will be using a synthetic dataset that is modeled after
 
 First, various necessary packages needed for the analysis will be loaded. 
 
-```{r package-loading, echo=TRUE}
-pacman::p_load(tidyverse, dplyr, gtsummary, ggplot2, gt, readxl, data.table, ggrepel, knitr, yaml, rmarkdown, here)
+```{r package-loading, echo=FALSE}
+library(tidyverse)
+library(dplyr)
+library(gtsummary)
+library(ggplot2)
+library(gt)
+library(readxl)
+library(data.table)
+library(ggrepel)
+library(knitr)
+library(yaml)
+library(rmarkdown)
+library(here)
 ```
 
-Second, the synthetic dataset will be loaded from my local directory (OneDrive). The data will be called `clinic`. 
-
+Second, the synthetic dataset will be loaded from the correct directory. The data will be called `clinic`. 
 ```{r data-loading, echo=TRUE}
 clinic <- read_csv(file = here::here("Data/synthetic_data.csv"))
 ```
