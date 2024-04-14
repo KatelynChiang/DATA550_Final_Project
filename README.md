@@ -13,10 +13,10 @@ The final report can be generated using the contents of this directory:
   
 Instructions for creating the Final Report:
 
-  1. "make" `Output/Clinic_Obesity_Prevalence.rds`. 
-  2. "make" `Output/Table1.rds`.
-  3. "make" `Output/Figure1.rds`.
-  4. "make" `report.html`.
+  1. Ensure you are in the correct working directory.
+  2. Ensure you have the renv package installed on your computer. 
+  3. In the terminal, run `make install` to install necessary packages. 
+  4. In the terminal, run `make report.html`
 
 ## Code Description 
 
