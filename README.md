@@ -62,7 +62,7 @@ There are 2 options for generating the final report. You can either pull or down
 
   1. Ensure you are in the correct working directory.
   2. Ensure you have the renv package installed on your computer. 
-  3. In the terminal, run `make install` to install necessary packages. **As of April 29, this rule has been removed from the Makefile to ease local image building. This rule will no longer work as of April 29.**
+  3. In the terminal, run `make install` to install necessary packages. **As of April 29, this rule has been commented out of the Makefile to ease local image building. This rule will no longer work as of April 29.**
   4. In the terminal, run `make report.html` to create the final report. 
 
 ## Code Description 
