@@ -16,10 +16,9 @@ The final report can be generated using the contents of this directory:
 
   **To build the image locally on your computer:**
   
-  1. Fork the contents of this repository. 
-  2. Clone the contents of your fork onto your local machine. 
-  3. Ensure you are in the correct working directory (project directory with appropriate project files).
-  4. In the terminal, run `make project_image` to build the image that will have the necessary software and packages to run the analyses for this final report.
+  1. Clone the contents of this repository onto your local machine.
+  2. Ensure you are in the correct working directory (project directory with appropriate project files).
+  3. In the terminal, run `make project_image` to build the image that will have the necessary software and packages to run the analyses for this final report.
   
 ## Instructions for Generating the Final Report (For Final Project 8: docker)
 
@@ -29,19 +28,17 @@ There are 2 options for generating the final report. You can either pull or down
 
   **If you are using a Mac or Linux operating system:**
 
-  1. Fork the contents of this repository. 
-  2. Clone the contents of your fork onto your local machine. 
-  3. Ensure you are in the appropriate working directory (project directory with appropriate project files).
-  4. In the terminal, run `make pull_project_image` to pull the image from DockerHub that has the necessary software and packages to run the analysis. This is an optional step and is not necessary. 
-  5. In the terminal, run `make mac_docker_image/report.html` to run the container and automatically generate the final report. You will find the final report .html file inside the "report" folder in the working directory on your local machine.
+  1. Clone the contents of this repository onto your local machine.
+  2. Ensure you are in the appropriate working directory (project directory with appropriate project files).
+  3. In the terminal, run `make pull_project_image` to pull the image from DockerHub that has the necessary software and packages to run the analysis. This is an optional step and is not necessary. 
+  4. In the terminal, run `make mac_docker_image/report.html` to run the container and automatically generate the final report. You will find the final report .html file inside the "report" folder in the working directory on your local machine.
   
   **If you are using a Windows operating system:**
 
-  1. Fork the contents of this repository. 
-  2. Clone the contents of your fork onto your local machine. 
-  3. Ensure you are in the appropriate working directory (project directory with appropriate project files).
-  4. In the terminal, run `make pull_project_image` to pull the image from DockerHub that has the necessary software and packages to run the analysis. This is an optional step and is not necessary. 
-  5. In the terminal, run `make windows_docker_image/report.html` to run the container and automatically generate the final report. You will find the final report .html file inside the "report" folder in the working directory on your local machine.
+  1. Clone the contents of this repository onto your local machine.
+  2. Ensure you are in the appropriate working directory (project directory with appropriate project files).
+  3. In the terminal, run `make pull_project_image` to pull the image from DockerHub that has the necessary software and packages to run the analysis. This is an optional step and is not necessary. 
+  4. In the terminal, run `make windows_docker_image/report.html` to run the container and automatically generate the final report. You will find the final report .html file inside the "report" folder in the working directory on your local machine.
   
   **[Link to image on DockerHub](https://hub.docker.com/r/katelynchiang/project_image)**
 
@@ -49,19 +46,17 @@ There are 2 options for generating the final report. You can either pull or down
   
   **If you are using a Mac or Linux operating system:**
   
-  1. Fork the contents of this repository. 
-  2. Clone the contents of your fork onto your local machine. 
-  3. Ensure you are in the correct working directory (project directory with appropriate project files).
-  4. In the terminal, run `make project_image` to build the image that will have the necessary software and packages to run the analyses.
-  5. In the terminal, run `make mac_report/report.html` to run the container and automatically generate the final report. You will find the final report .html file inside the "report" folder in the project directory on your local machine. 
+  1. Clone the contents of this repository onto your local machine.
+  2. Ensure you are in the correct working directory (project directory with appropriate project files).
+  3. In the terminal, run `make project_image` to build the image that will have the necessary software and packages to run the analyses.
+  4. In the terminal, run `make mac_report/report.html` to run the container and automatically generate the final report. You will find the final report .html file inside the "report" folder in the project directory on your local machine. 
 
   **If you are using a Windows operating system:**
   
-  1. Fork the contents of this repository. 
-  2. Clone the contents of your fork onto your local machine. 
-  3. Ensure you are in the correct working directory (project directory with appropriate project files).
-  4. In the terminal, run `make project_image` to build the container that will have the necessary software and packages to run the analyses.
-  5.  In the terminal, run `make windows_report/report.html` to run the container and automatically generate the final report. You will find the final report .html file inside the "report" folder in the project directory on your local machine. 
+  1. Clone the contents of this repository onto your local machine. 
+  2. Ensure you are in the correct working directory (project directory with appropriate project files).
+  3. In the terminal, run `make project_image` to build the container that will have the necessary software and packages to run the analyses.
+  4. In the terminal, run `make windows_report/report.html` to run the container and automatically generate the final report. You will find the final report .html file inside the "report" folder in the project directory on your local machine. 
   
 ## Instructions for Generating the Final Report (For Final Project 6: renv)
 
