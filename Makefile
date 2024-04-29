@@ -1,8 +1,9 @@
 #Report-associated rules
 
-.PHONY: install
-install:
-	Rscript -e "renv::restore(prompt = FALSE)"
+#Rule removed April 29
+#.PHONY: install
+#install:
+#	Rscript -e "renv::restore(prompt = FALSE)"
 
 report.html: Code/04_Render_Report.R report.Rmd Output/Clinic_Obesity_Prevalence.rds Output/Table1.rds Output/Figure1.rds
 	Rscript Code/04_Render_Report.R
