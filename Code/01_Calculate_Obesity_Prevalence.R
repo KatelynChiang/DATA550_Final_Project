@@ -1,15 +1,7 @@
-library(tidyverse)
-library(dplyr)
-library(gtsummary)
-library(ggplot2)
-library(gt)
-library(readxl)
-library(data.table)
-library(ggrepel)
-library(knitr)
-library(yaml)
-library(rmarkdown)
 library(here)
+library(readr)
+library(magrittr)
+library(dplyr)
 
 here::i_am("Code/01_Calculate_Obesity_Prevalence.R")
 
@@ -26,3 +18,4 @@ saveRDS(
   clinic_obesity_prevalence,
   file = here::here("Output/Clinic_Obesity_Prevalence.rds")
 )
+

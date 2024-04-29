@@ -1,15 +1,8 @@
-library(tidyverse)
+library(here)
+library(readr)
+library(magrittr)
 library(dplyr)
 library(gtsummary)
-library(ggplot2)
-library(gt)
-library(readxl)
-library(data.table)
-library(ggrepel)
-library(knitr)
-library(yaml)
-library(rmarkdown)
-library(here)
 
 here::i_am("Code/02_Make_Table1.R")
 

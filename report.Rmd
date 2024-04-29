@@ -15,11 +15,11 @@ here::i_am("report.Rmd")
 
 ## Introduction 
 
-**Data description:** 
+### Data description:
 
 For the final project, I will be using a synthetic dataset that is modeled after electronic health record data of children and adolescents aged 2-19 years attending well-child visits at a local pediatric primary care clinic. This dataset includes data from 40,000 different patient encounters between 2016-2023 (5,000 visits each year). Variables included in the dataset include the child/adolescent's age (categorized across 3 different age groups, `Age_Group`: `2-5 years`, `6-11 years`, and `2-19 years`), sex (`Sex`: `Male` or `Female`), race/ethnicity (`Race_Ethnicity`: `Hispanic`,  `White`, and `Black`), insurance (`Insurance`: `Medicaid` or `Commercial`), and weight status (categorized across 4 different weight groups based on the child's BMI-for-age percentile data (not included), `Weight_Status`: `Underweight`, `Healthy Weight`, `Overweight`, and `Obesity`). Another variable `Year` identifies the year of the patient encounter. 
 
-**Analysis objectives:**
+### Analysis objectives:
 
 * Objective 1: To determine trends in prevalence of obesity among patients attending well-child visits at a local pediatric primary care clinic from 2016 to 2023. 
 * Objective 2: To assess prevalence of obesity among patients attending well-child visits at a local pediatric primary care clinic by various sociodemographic characteristics. 
@@ -29,18 +29,16 @@ For the final project, I will be using a synthetic dataset that is modeled after
 First, various necessary packages needed for the analysis will be loaded. 
 
 ```{r package-loading, echo=FALSE}
-library(tidyverse)
+library(here)
+library(readr)
+library(magrittr)
 library(dplyr)
 library(gtsummary)
 library(ggplot2)
-library(gt)
-library(readxl)
-library(data.table)
 library(ggrepel)
+library(rmarkdown)
 library(knitr)
 library(yaml)
-library(rmarkdown)
-library(here)
 ```
 
 Second, the synthetic dataset will be loaded from the correct directory. The data will be called `clinic`. 
